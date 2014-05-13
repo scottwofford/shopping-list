@@ -43,7 +43,7 @@ body
 }
 
 .add-button {
-
+	display:inline-block;
 }
 
 ul li {
@@ -61,10 +61,14 @@ ul li {
 	width:200px;
 }
 
+.item {
+
+}
+
 .check-box {
 	display:inline-block;
 	text-align:left;
-	vertical-align:center;
+	vertical-align:auto;
 }
 
 .delete-button {

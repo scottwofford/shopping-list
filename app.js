@@ -5,12 +5,11 @@ $('#add-button').click(function(){
     var txtbox = document.getElementById('item');
     var txtval = txtbox.value;
     event.preventDefault();
+
+// add to list
     if(!$.trim($('#item').val())) {
     } else {
-      $('<li class="items"></li>').appendTo('#list').html('<div class="box"></div><span>' + txtval + '</span><img class="delete" src="images/delete.png"/>');
-
-    document.getElementById('item').value = '';
-    };
+      $('<li class="items"></li>').appendTo('.list');
+    }
   });
-
 });
