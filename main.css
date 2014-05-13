@@ -1,0 +1,152 @@
+
+* {
+	/*outline: 1px solid black;*/ /* Thinkful reccomendation temporarily to see outlines*/
+}
+
+body
+{
+	display:block;
+	background-image:url("images/grocery.JPG");
+	background-repeat: no-repeat;
+	background-position: bottom center;
+		background-position-x: 50%;
+		background-position-y: 0%;
+}
+
+.container {
+	display:inline-block;
+	width:650px;
+	margin: 45px 25% 0px 25%;
+	height:600px;
+	background-image: url("images/notepad.jpg");
+}
+
+.text {
+	font-family: 'Permanent Marker', cursive;
+	color:black;
+}
+
+.title {
+	font-size:45px;
+	margin:147px 0px 0px 36px;
+}
+
+.input {
+	font-size:30px;
+	width:450px;
+	margin-top:53px;
+	margin-left:36px;
+	background-color:transparent;
+	font-family: 'Permanent Marker', cursive;
+	border-radius:7px;
+	border: 3px solid black;
+}
+
+.add-button {
+
+}
+
+ul li {
+	font-family: 'Permanent Marker', cursive;
+	background-color:transparent;
+	font-size:25px;
+	text-align:left;
+}
+
+.list {
+	display:inline-block;
+ 	font-family: 'Permanent Marker', cursive;
+	background-color:transparent;
+	font-size:25px;
+	width:200px;
+}
+
+.check-box {
+	display:inline-block;
+	text-align:left;
+	vertical-align:center;
+}
+
+.delete-button {
+
+}
+
+#connect {
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	background-color:black;
+	font-family: 'Droid Sans', sans-serif;
+	font-size:1em;
+	color:gray;
+	margin-bottom: 0px;
+	padding: 5px 0px 3px 0px;
+	text-align: center;
+	vertical-align:middle;
+}
+
+.social-media-link{
+	width:15px;
+}
+
+#facebook {
+	width:22px;
+	vertical-align:middle;
+}
+
+#linkedin {
+	width:25px;
+	vertical-align:middle;
+}
+
+/* CSS RESET BELOW http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126  License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/* BEGIN SCOTT'S WORK
+*/
+
+
