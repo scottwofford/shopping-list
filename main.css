@@ -72,7 +72,12 @@ ul li {
 }
 
 .delete-button {
+	color:red;
+	text-align:right;
+}
 
+.selected {
+	text-decoration:underline;
 }
 
 #connect {
